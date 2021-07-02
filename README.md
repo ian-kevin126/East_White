@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: /EastWhite.jpg
 actionText: 开始 →
 actionLink: /guide/
 features:
