@@ -12,8 +12,15 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
-      { text: "JavaScript", link: "/javascript/" },
-      { text: "TypeScript", link: "/typescript/" },
+      { text: "HTML/CSS", link: "/html-css/" },
+      {
+        text: "JS+ES+TS",
+        items: [
+          { text: "JS", link: "/javascript/js/" },
+          { text: "ES", link: "/javascript/es/" },
+          { text: "TS", link: "/javascript/ts/" }
+        ]
+      },
       { text: "Webpack", link: "/webpack/" },
       { text: "React", link: "/react/" },
       { text: "Flutter", link: "/flutter/" },
