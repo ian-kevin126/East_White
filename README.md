@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /EastWhite.jpg
-actionText: 开始 →
+actionText: 开启探索 →
 actionLink: /guide/
 features:
   - title: React

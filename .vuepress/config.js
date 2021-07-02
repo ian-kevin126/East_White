@@ -4,7 +4,7 @@
 // It can also be written in yml or toml instead of js
 // See the documentation for more information on how to use it
 // https://v1.vuepress.vuejs.org/config/
-// 配置：https://www.moyundong.com/frontend/vuepress/4%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE.html#config-js%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6
+// 配置教程：https://www.moyundong.com/frontend/vuepress/1%E4%BB%8B%E7%BB%8D.html
 
 module.exports = {
   title: "East_White",

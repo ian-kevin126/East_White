@@ -108,3 +108,7 @@ For more information about how to get started with custom VuePress themes, pleas
 This codesandbox template was created by [Victoria Bergquist](https://twitter.com/vicbergquist). The information on this page is gathered from the official [VuePress documentation](https://v1.vuepress.vuejs.org) for the latest version of VuePress.
 
 If you would like to contribute to this template, please go to the [codesandbox-vuepress repository](https://github.com/vicbergquist/codesandbox-vuepress) on GitHub.
+
+## 参考
+
+[Krahet's Blog——剑指 offer](https://krahets.gitee.io/views/sword-for-offer/2020-05-20-sword-for-offer-00.html)
