@@ -6,14 +6,20 @@
 // https://v1.vuepress.vuejs.org/config/
 
 module.exports = {
-  title: 'VuePress + CodeSandbox',
-  description: 'VuePress starter template for CodeSandbox',
+  title: "East_White",
+  description: "The road ahead is vast and expectable!",
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
-      { text: 'VuePress', link: 'https://vuepress.vuejs.org/' },
-      { text: 'GitHub', link: 'https://github.com/vicbergquist/codesandbox-vuepress/' },
+      { text: "Home", link: "/" },
+      { text: "JavaScript", link: "/guide/" },
+      { text: "TypeScript", link: "https://vuepress.vuejs.org/" },
+      { text: "Webpack", link: "https://vuepress.vuejs.org/" },
+      { text: "React", link: "https://vuepress.vuejs.org/" },
+      { text: "Node", link: "https://vuepress.vuejs.org/" },
+      {
+        text: "GitHub",
+        link: "https://github.com/ian-kevin126"
+      }
     ]
   }
-}
+};
