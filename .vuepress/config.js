@@ -45,21 +45,11 @@ module.exports = {
       }
     ],
     sidebar: {
-      "/DataStructures/": ["Array_1"],
-      "/Algorithms/": [
+      "/Webpack/": [
         {
-          title: "排序算法",
-          collapsable: false,
-          children: [
-            {
-              title: "冒泡排序",
-              path: "/Algorithms/sort/bubble-sort.md"
-            },
-            {
-              title: "冒泡排序",
-              path: "/Algorithms/sort/bubble-sort.md"
-            }
-          ]
+          title: "webpack",
+          collapsable: true,
+          childres: [{ title: "1111", path: "/Webpack/111" }]
         }
       ]
     },
