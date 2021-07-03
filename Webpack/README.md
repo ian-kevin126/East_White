@@ -1,7 +1,7 @@
----
+<!-- ---
 sidebar: auto
 pageClass: custom-page-class
----
+--- -->
 
 # Webpack
 

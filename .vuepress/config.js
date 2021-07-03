@@ -7,17 +7,31 @@
 // 配置教程：https://www.moyundong.com/frontend/vuepress/1%E4%BB%8B%E7%BB%8D.html
 // Markdown语法：https://www.jianshu.com/p/191d1e21f7ed
 
+const sidebarItem = (title, path, depth = 2) => {
+  return {
+    title: title,
+    sidebarDepth: depth,
+    path: path,
+    collapsable: true
+  };
+};
+
 module.exports = {
   title: "East_White",
   description: "The road ahead is vast and expectable!",
   themeConfig: {
+    smoothScroll: true,
+    editLinks: true,
+    sidebarDepth: 2, //左侧导航显示的层级
+    lastUpdated: "Last Updated",
     nav: [
       { text: "Home", link: "/" },
       {
-        text: "HTML/CSS",
+        text: "HTML&CSS",
+        link: "/HTML_CSS/",
         items: [
-          { text: "HTML", link: "/HTML/" },
-          { text: "CSS", link: "/CSS/" }
+          { text: "HTML", link: "/HTML_CSS/HTML/" },
+          { text: "CSS", link: "/HTML_CSS/CSS/" }
         ]
       },
       {
@@ -45,6 +59,10 @@ module.exports = {
       }
     ],
     sidebar: {
+      "/HTML_CSS/HTML/": [sidebarItem("HTML_1", "/HTML_CSS/HTML/html_1")],
+      "/DataStructures/": [
+        sidebarItem("Array1111", "/DataStructures/Array/Array_1")
+      ],
       "/Webpack/": [
         {
           title: "webpack",
@@ -52,8 +70,6 @@ module.exports = {
           childres: [{ title: "1111", path: "/Webpack/111" }]
         }
       ]
-    },
-    sidebarDepth: 2, //左侧导航显示的层级
-    lastUpdated: "Last Updated"
+    }
   }
 };
