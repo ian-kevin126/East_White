@@ -28,10 +28,9 @@ module.exports = {
       { text: "Home", link: "/" },
       {
         text: "HTML&CSS",
-        link: "/HTML_CSS/",
         items: [
-          { text: "HTML", link: "/HTML_CSS/HTML/" },
-          { text: "CSS", link: "/HTML_CSS/CSS/" }
+          { text: "HTML", link: "/HTML/" },
+          { text: "CSS", link: "/CSS/" }
         ]
       },
       {
@@ -59,7 +58,7 @@ module.exports = {
       }
     ],
     sidebar: {
-      "/HTML_CSS/HTML/": [sidebarItem("HTML_1", "/HTML_CSS/HTML/html_1")],
+      "/HTML/": [sidebarItem("HTML_1", "/HTML/html_1")],
       "/DataStructures/": [
         sidebarItem("Array1111", "/DataStructures/Array/Array_1")
       ],
